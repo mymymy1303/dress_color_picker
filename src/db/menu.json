@@ -1,0 +1,20 @@
+{
+	"lists": [
+		{
+			"name": "Trang chủ",
+			"link": "javascript:void(0)"
+		},
+		{
+			"name": "Giới thiệu",
+			"link": "javascript:void(0)"
+		},
+		{
+			"name": "Liên hệ",
+			"link": "javascript:void(0)"
+		},
+		{
+			"name": "Mua sắm",
+			"link": "javascript:void(0)"
+		},
+	]
+}

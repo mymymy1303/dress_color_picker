@@ -1,0 +1,25 @@
+extends _layout/layout
+
+//- Các giá trị mặc định cho trang web
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+//- Phần khai báo body
+block body
+
+	section
+		.container
+			.row
+				.col
+					h1 {{message}}
+	section.dress_section
+		.container
+			.row
+				.col
+					img(src="./img/tshirt.png", alt="", id="dressImage").cover-shirt
+					img(src="./img/model.png", alt="").original-shirt
+					input(type="color" ng-change="getFilter()" ng-model="colorCode")
+					h1 {{colorCode}}
+					.color_panel
